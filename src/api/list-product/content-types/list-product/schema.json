@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "list_products",
+  "info": {
+    "singularName": "list-product",
+    "pluralName": "list-products",
+    "displayName": "List Product"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "speed": {
+      "type": "blocks"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "popular": {
+      "type": "boolean"
+    },
+    "specifications": {
+      "type": "component",
+      "repeatable": true,
+      "component": "specification-product.specifications"
+    }
+  }
+}

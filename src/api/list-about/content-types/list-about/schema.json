@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "list_abouts",
+  "info": {
+    "singularName": "list-about",
+    "pluralName": "list-abouts",
+    "displayName": "List About"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

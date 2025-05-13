@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "list_testimonis",
+  "info": {
+    "singularName": "list-testimoni",
+    "pluralName": "list-testimonis",
+    "displayName": "List Testimoni"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "client": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_testimoni_section_testimonis",
+  "info": {
+    "displayName": "testimoni"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "list_testimonis": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::list-testimoni.list-testimoni"
+    }
+  }
+}

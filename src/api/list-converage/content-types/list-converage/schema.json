@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "list_converages",
+  "info": {
+    "singularName": "list-converage",
+    "pluralName": "list-converages",
+    "displayName": "List Converage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

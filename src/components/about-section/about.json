@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_about_section_abouts",
+  "info": {
+    "displayName": "about"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "list_abouts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::list-about.list-about"
+    }
+  }
+}
